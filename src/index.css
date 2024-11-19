@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gallery{
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ffffff79;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imageCard {
+  text-align: center;
+  width: 30%;
+}
+
+img{
+  max-width: 100%;
+  width: 350px; 
+  height: 350px; 
+  object-fit: cover;
+  border-radius: 15%;
+  margin-bottom: 10px;
+  box-shadow: 2px 5px 15px #ffffff53;
+}
+
+.imgHeader{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffffff;
+}
+
+.pricetag{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
