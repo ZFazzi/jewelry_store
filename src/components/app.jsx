@@ -2,6 +2,7 @@ import Gallery from '../components/profile.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from '../pages/home.jsx';
 import About from '../pages/about.jsx';
+import Jewelry from '../pages/jewelry.jsx';
 import Navbar from '../navbar.jsx';
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
+                <Route path="/jewelry" element={<Jewelry/>} />
                 </Routes>
             </BrowserRouter>
         </>

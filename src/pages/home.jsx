@@ -1,4 +1,13 @@
 function Home () {
-    return <div> Homepage</div>
+
+    const handleEvent = () => {
+        console.log('Button clicked!');
+    }
+
+    return (
+    <div> 
+        <button className="home-btn" onClick={handleEvent}>Click here</button>
+    </div>
+    );
 }
 export default Home;
