@@ -77,11 +77,10 @@ nav ul {
   margin: 5px;
   padding: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 35px;
 }
 
 nav li {
-  font-size: 1.2rem;
   margin-left: 15px;
 }
 
@@ -115,10 +114,12 @@ nav a:hover {
 
 h1{
   text-shadow: 2px 2px 10px #ffffff5d;
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 .counter{
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 30px;
 }
 
 /* =================== Buttons =================================*/
@@ -160,4 +161,38 @@ h1{
 .buy-btn:hover {
   color: #482f17;
   text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.743);
+}
+
+
+
+/* ========================= Color Picker ============================== */
+
+.color-page {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+input[type="color"] {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.color-display {
+  margin: 25px auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50%;
 }

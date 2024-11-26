@@ -5,6 +5,7 @@ import About from '../pages/about.jsx';
 import Jewelry from '../pages/jewelry.jsx';
 import Navbar from '../navbar.jsx';
 import Footer from '../footer.jsx';
+import ColorPicker from '../pages/colors.jsx';
 function App() {
     return (
         <>
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/" element={<Home/>} />
                     <Route path="/about" element={<About/>} />
                     <Route path="/jewelry" element={<Jewelry/>} />
+                    <Route path="/colors" element={<ColorPicker/>} />
                 </Routes>
             </BrowserRouter>
             <Footer></Footer>

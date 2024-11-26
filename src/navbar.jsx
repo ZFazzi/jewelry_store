@@ -12,6 +12,9 @@ function Navbar (){
                 <li>
                     <Link to="/about">About</Link>
                 </li>
+                <li>
+                    <Link to="/colors">Color Picker</Link>
+                </li>
             </ul>
         </nav>
     </div>
