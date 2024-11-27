@@ -17,8 +17,8 @@ function App() {
                     <Route path="/jewelry" element={<Jewelry/>} />
                     <Route path="/colors" element={<ColorPicker/>} />
                 </Routes>
-            </BrowserRouter>
             <Footer></Footer>
+            </BrowserRouter> 
         </>
     );
 }
